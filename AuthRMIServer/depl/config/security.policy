@@ -1,0 +1,9 @@
+
+grant codebase "file:authrmi_main.jar" 
+{
+  permission java.security.AllPermission;
+};
+
+grant codebase "file:authrmi_actions.jar" 
+{
+};

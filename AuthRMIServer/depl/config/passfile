@@ -1,0 +1,6 @@
+# Password file
+# The first field is the username, the second one is the password.
+
+root=rootPass
+alice=guess
+guest=guest

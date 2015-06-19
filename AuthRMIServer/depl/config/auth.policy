@@ -1,0 +1,14 @@
+
+grant Principal authrmi.RMILoginPrincipal "root"
+{
+  permission authrmi.permissions.ServerPermission "*";
+};
+
+grant Principal authrmi.RMILoginPrincipal "alice"
+{
+  permission authrmi.permissions.ServerPermission "doFirstOperation";
+};
+
+grant Principal authrmi.RMILoginPrincipal "guest"
+{
+};
